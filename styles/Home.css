@@ -1,0 +1,268 @@
+.showcaseContainer {
+  width: var(--standard-width);
+  margin: 0 auto;
+  height: 90vh;
+  color: var(--textColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.showcaseContainer .showcaseLatestEpisode {
+  width: 55%;
+  height: 70%;
+  padding-top: 50px;
+}
+.showcaseContainer .showcaseLatestEpisode .latestEpisodeNumber {
+  color: var(--main-color);
+  font-weight: bold;
+  font-family: "Nunito Sans";
+  font-size: 40px;
+}
+.showcaseContainer .showcaseLatestEpisode .latestEpisodeTitle {
+  width: 90%;
+  font-size: 60px;
+  font-weight: 900;
+  font-family: "Nunito Sans";
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.showcaseContainer .showcaseLatestEpisode .latestEpisodeDescription {
+  color: #ccc;
+}
+.showcaseContainer .showcaseLatestEpisode .latestEpisodeDescription span {
+  color: var(--main-color);
+  font-weight: bold;
+  cursor: pointer;
+}
+.showcaseContainer .showcaseLatestEpisode .episodeDate {
+  color: #ccc;
+  font-size: 12px;
+  margin: 20px 0px;
+}
+.showcaseContainer .showcaseLatestEpisode .episodeDate .calendarIcon {
+  color: var(--main-color);
+}
+.showcaseContainer .showcaseLatestEpisode .playLatestEpisodeButton {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 15px 0px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.showcaseContainer .showcaseLatestEpisode .playLatestEpisodeButton .playIconContainer {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.showcaseContainer .showcaseLatestEpisode .playLatestEpisodeButton .playIconContainer .playIcon {
+  font-size: 18px;
+  color: var(--main-color);
+}
+.showcaseContainer .showcaseLatestEpisode .showcaseButtons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-top: 60px;
+}
+.showcaseContainer .showcaseLatestEpisode .showcaseButtons button {
+  width: 200px;
+  height: 60px;
+  border-radius: 20px;
+}
+.showcaseContainer .showcaseLatestEpisode .showcaseButtons .allEpisodesButton {
+  background-color: var(--main-color);
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+.showcaseContainer .showcaseLatestEpisode .showcaseButtons .listenNow {
+  background-color: #fff;
+  color: var(--main-color);
+  font-weight: bold;
+  font-size: 20px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+.showcaseContainer .showcaseImage {
+  width: 35%;
+  height: 80%;
+  background: url("../Assets/banner.jpg");
+  background-position: top left;
+  background-size: 160%;
+  background-repeat: no-repeat;
+}
+
+.featuredEpisodeContainer {
+  width: var(--standard-width);
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.featuredEpisodeContainer h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 900;
+  color: var(--textColor);
+}
+.featuredEpisodeContainer h2 {
+  color: var(--main-color);
+  text-align: center;
+  margin-top: 15px;
+}
+.featuredEpisodeContainer .featuredEpisodeList {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin-top: 60px;
+}
+.featuredEpisodeContainer .featuredEpisodeList .featuredEpisode {
+  width: 20%;
+  height: auto;
+  background: #030303;
+  border: 1px solid #2b2b2b;
+  color: var(--textColor);
+  padding: 15px;
+}
+.featuredEpisodeContainer .featuredEpisodeList .featuredEpisode .featuredEpisodeNumber {
+  font-family: "Anton";
+  font-size: 55px;
+}
+.featuredEpisodeContainer .featuredEpisodeList .featuredEpisode .featuredEpisodeNumber span {
+  font-family: "Anton";
+  color: var(--main-color);
+}
+.featuredEpisodeContainer .featuredEpisodeList .featuredEpisode .featuredTitle {
+  font-size: 35px;
+}
+.featuredEpisodeContainer .featuredEpisodeList .featuredEpisode .featuredDateandDuration {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px;
+  font-size: 13px;
+  color: #9b9b9b;
+}
+.featuredEpisodeContainer .featuredEpisodeList .featuredEpisode .featuredEpisodeDescription {
+  font-size: 15px;
+  margin-top: 10px;
+  color: #dbdada;
+}
+.featuredEpisodeContainer .featuredEpisodeList .featuredEpisode .featuredEpisodePlayButton {
+  width: 100%;
+  height: 60px;
+  border-radius: 30px;
+  margin-top: 30px;
+  background: var(--main-color);
+  color: var(--textColor);
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.subscribeContainer {
+  color: var(--textColor);
+}
+.subscribeContainer h1 {
+  text-align: center;
+  font-size: 50px;
+}
+.subscribeContainer h2 {
+  font-size: 18px;
+  text-align: center;
+  color: var(--main-color);
+}
+.subscribeContainer .subscribeForm {
+  width: 30%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+}
+.subscribeContainer .subscribeForm input {
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  padding: 10px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: var(--textColor);
+  font-weight: bold;
+}
+.subscribeContainer .subscribeForm input::-moz-placeholder {
+  color: var(--textColor);
+  font-weight: bold;
+}
+.subscribeContainer .subscribeForm input::placeholder {
+  color: var(--textColor);
+  font-weight: bold;
+}
+.subscribeContainer .subscribeForm input:focus {
+  outline: none;
+}
+.subscribeContainer .subscribeForm button {
+  height: 60px;
+  margin-top: 30px;
+  background-color: var(--main-color);
+  color: var(--textColor);
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+}
+
+.footerContainer {
+  width: 100%;
+  height: 300px;
+  background: var(--blk);
+  display: flex;
+  justify-content: space-evenly;
+  color: var(--textColor);
+  margin-top: 100px;
+  border-top: 1px solid #272727;
+  padding-top: 20px;
+}
+.footerContainer .footerAbout {
+  width: 30%;
+}
+.footerContainer .footerRecentEpisode {
+  display: flex;
+  flex-direction: column;
+}
+.footerContainer .footerRecentEpisode span {
+  margin-bottom: 20px;
+  color: var(--main-color);
+  font-weight: bold;
+}
+.footerContainer .footerContact .footerIcons {
+  color: var(--main-color);
+}
+.footerContainer .footerContact .footerLocation {
+  margin: 10px 0px;
+}
+.footerContainer .footerContact .footerLinks {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+.footerContainer .footerContact .contactButton_footer {
+  width: 100%;
+  height: 40px;
+  background: var(--main-color);
+  border-radius: 15px;
+  border: 1px solid transparent;
+  color: var(--textColor);
+  margin-top: 20px;
+  cursor: pointer;
+}/*# sourceMappingURL=Home.css.map */
