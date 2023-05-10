@@ -4,6 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('../styles/Home.css');
 @import url('../styles/Navigation.css');
+@import url('../styles/Episodes.css');
+@import url('../styles/Contact.css');
+@import url('../styles/About.css');
+@import url('../styles/Guests.css');
 :root{
     --main-color: #0070D9;
     --color2: #043944;
@@ -28,20 +32,21 @@
 .generic_showcase {
     width: 100%;
     height: 40vh;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
-    font-size: 35px;
+    font-size: 45px;
     background-image: url('../Assets/bluesplash.png');
     background-size: contain;
     background-position: center;
+    font-weight: bolder;
+    margin-bottom: 50px;
 }
 
 
 html {
     background-color: #010B14;
+    scroll-behavior: smooth;
 }
 

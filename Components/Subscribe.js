@@ -3,7 +3,7 @@ import React from "react";
 
 function Subscribe() {
   return (
-    <div className="subscribeContainer">
+    <div className="subscribeContainer" id="subscribe">
       <h1>Subscribe</h1>
       <h2 className="subscribeMessage">
         Subscribe to our podcast and get the latest episodes delivered to your

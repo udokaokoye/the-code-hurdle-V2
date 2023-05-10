@@ -1,0 +1,94 @@
+.aboutContainer {
+  color: var(--textColor);
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.aboutContainer .aboutShow {
+  width: 50%;
+}
+.aboutContainer .aboutShow .aboutTitle {
+  margin-bottom: 20px;
+}
+.aboutContainer .aboutShow .podcastDescription {
+  line-height: 27px;
+  margin-bottom: 20px;
+}
+.aboutContainer .aboutShow .showHeader {
+  display: flex;
+}
+.aboutContainer .aboutShow .showHeader .showImg {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: brown;
+}
+.aboutContainer .aboutShow .showHeader .showInfo {
+  margin-left: 10px;
+}
+.aboutContainer .aboutShow .showHeader .showInfo span {
+  color: var(--main-color);
+}
+.aboutContainer .aboutShow .showHeader .showInfo .showSocialLinks {
+  display: flex;
+  gap: 15px;
+  margin: 10px 0px;
+}
+.aboutContainer .aboutShow .showHeader .showInfo .showSocialLinks a {
+  color: inherit;
+}
+.aboutContainer .aboutShow .showHeader .showInfo .showSocialLinks .aboutIcons {
+  font-size: 22px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.aboutContainer .aboutShow .showHeader .showInfo .showSocialLinks .aboutIcons:hover {
+  transform: scale(1.15);
+}
+.aboutContainer .aboutHost {
+  width: 50%;
+}
+.aboutContainer .aboutHost .hostTitle {
+  margin-bottom: 20px;
+}
+.aboutContainer .aboutHost .hostDescription {
+  line-height: 27px;
+  margin-bottom: 20px;
+}
+.aboutContainer .aboutHost .hostHeader {
+  display: flex;
+}
+.aboutContainer .aboutHost .hostHeader .hostImg {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: url("../Assets/me1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aboutContainer .aboutHost .hostHeader .hostInfo {
+  margin-left: 10px;
+}
+.aboutContainer .aboutHost .hostHeader .hostInfo span {
+  color: var(--main-color);
+}
+.aboutContainer .aboutHost .hostHeader .hostInfo .hostSocialLinks {
+  display: flex;
+  gap: 15px;
+  margin: 10px 0px;
+}
+.aboutContainer .aboutHost .hostHeader .hostInfo .hostSocialLinks a {
+  color: inherit;
+}
+.aboutContainer .aboutHost .hostHeader .hostInfo .hostSocialLinks .aboutIcons {
+  font-size: 22px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.aboutContainer .aboutHost .hostHeader .hostInfo .hostSocialLinks .aboutIcons:hover {
+  transform: scale(1.15);
+}/*# sourceMappingURL=About.css.map */

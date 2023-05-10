@@ -1,0 +1,114 @@
+.episodesContainer {
+  width: 70%;
+  margin: 0 auto;
+  height: auto;
+  color: var(--textColor);
+}
+.episodesContainer .searchContainer {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.episodesContainer .searchContainer .episodeSearchInput {
+  width: 80%;
+  height: 100%;
+  background: #fff;
+  color: var(--main-color);
+  border: none;
+  padding-left: 20px;
+}
+.episodesContainer .searchContainer .searchButton {
+  width: 20%;
+  height: 100%;
+  background: var(--main-color);
+  border: none;
+  font-size: 19px;
+  color: var(--textColor);
+  cursor: pointer;
+}
+.episodesContainer .episodesContainerHeader {
+  color: var(--textColor);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.episodesContainer .episodesContainerHeader .filterContainer {
+  position: relative;
+}
+.episodesContainer .episodesContainerHeader .filterContainer .filterText {
+  cursor: pointer;
+}
+.episodesContainer .episodesContainerHeader .filterContainer .filterHoverDiv {
+  position: absolute;
+  height: auto;
+  width: 80px;
+  margin-top: 5px;
+  display: none;
+  flex-direction: column;
+  gap: 3px;
+}
+.episodesContainer .episodesContainerHeader .filterContainer .filterHoverDiv .filterItem {
+  width: 100%;
+  height: 35px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+.episodesContainer .allEpisodesContainer {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.episodesContainer .episodeCard {
+  width: 400px;
+  height: auto;
+}
+.episodesContainer .episodeCard .episodeArt {
+  width: 100%;
+  height: 300px;
+  background: url("../Assets/podcastArt.png");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.episodesContainer .episodeCard .episodeTitle {
+  color: var(--main-color);
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.episodesContainer .episodeCard .episodeNumberandDateContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 15px;
+  color: #ccc;
+  margin: 10px 0px;
+}
+.episodesContainer .episodeCard .hostGuest {
+  color: rgb(129, 129, 129);
+  font-weight: bold;
+  font-size: 15px;
+}
+.episodesContainer .episodeCard .episodeNotes {
+  margin: 10px 0px;
+  font-size: 16px;
+}
+.episodesContainer .episodeCard .episodeActions {
+  display: flex;
+  justify-content: space-between;
+}
+.episodesContainer .episodeCard .episodeActions .playButton {
+  color: var(--main-color);
+  cursor: pointer;
+}
+.episodesContainer .episodeCard .episodeActions .viewepisode {
+  text-decoration: none;
+  color: var(--textColor);
+  font-size: 14px;
+}/*# sourceMappingURL=Episodes.css.map */

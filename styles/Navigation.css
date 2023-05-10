@@ -42,9 +42,17 @@
   justify-content: flex-end;
   gap: 80px;
 }
-.navigationContainer .rightLinks .podcastbanner {
+.navigationContainer .rightLinks a {
   width: 150px;
   height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.navigationContainer .rightLinks .podcastbanner {
+  width: 150px;
+  height: 100%;
   cursor: pointer;
 }
 .navigationContainer .rightLinks .applePodcast {

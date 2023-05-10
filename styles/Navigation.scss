@@ -52,10 +52,20 @@
         align-items: center !important;
         justify-content: flex-end;
         gap: 80px;
-        .podcastbanner {
+        a{
             width: 150px;
             height: 50%;
+            // background: red;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .podcastbanner {
+            width: 150px;
+            height: 100%;
             cursor: pointer;
+            
         }
 
         .applePodcast {

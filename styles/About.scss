@@ -1,0 +1,117 @@
+.aboutContainer {
+    color: var(--textColor);
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+
+    .aboutShow {
+        width: 50%;
+        // background: blue;
+        .aboutTitle {
+            margin-bottom: 20px;
+        }
+    
+        .podcastDescription {
+            line-height: 27px;
+            margin-bottom: 20px;
+        }
+
+        .showHeader {
+            display: flex;
+            .showImg {
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                background-color: brown;
+            }
+
+            .showInfo {
+                margin-left: 10px;
+
+                span {
+                    color: var(--main-color);
+                }
+
+
+                .showSocialLinks {
+                    a {
+                        color: inherit;
+                    }
+                    display: flex;
+                    gap: 15px;
+                    margin: 10px 0px;
+                    .aboutIcons {
+                        font-size: 22px;
+                        cursor: pointer;
+                        transition: all 0.3s ease;
+
+                        &:hover {
+                            transform: scale(1.15);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+
+    .aboutHost {
+        width: 50%;
+        
+        .hostTitle {
+            margin-bottom: 20px;
+        }
+    
+        .hostDescription {
+            line-height: 27px;
+            margin-bottom: 20px;
+        }
+
+        .hostHeader {
+            display: flex;
+            .hostImg {
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                background: url('../Assets/me1.jpg');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .hostInfo {
+                margin-left: 10px;
+
+                span {
+                    color: var(--main-color);
+                }
+
+
+                .hostSocialLinks {
+                    a {
+                        color: inherit;
+                    }
+                    display: flex;
+                    gap: 15px;
+                    margin: 10px 0px;
+                    .aboutIcons {
+                        font-size: 22px;
+                        cursor: pointer;
+                        transition: all 0.3s ease;
+
+                        &:hover {
+                            transform: scale(1.15);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+
+
+}

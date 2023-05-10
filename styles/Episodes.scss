@@ -1,0 +1,139 @@
+.episodesContainer {
+    width: 70%;
+    margin: 0 auto;
+    height: auto;
+    color: var(--textColor);
+    // background: red;
+
+    .searchContainer {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .episodeSearchInput {
+            width: 80%;
+            height: 100%;
+            background: #fff;
+            color: var(--main-color);
+            border: none;
+            padding-left: 20px;
+        }
+
+        .searchButton {
+            width: 20%;
+            height: 100%;
+            background: var(--main-color);
+            border: none;
+            font-size: 19px;
+            color: var(--textColor);
+            cursor: pointer;
+        }
+    }
+
+    .episodesContainerHeader {
+        color: var(--textColor);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+
+        .filterContainer {
+            position: relative;
+
+            .filterText {
+                cursor: pointer;
+            }
+
+
+            .filterHoverDiv {
+                position: absolute;
+                height: auto;
+                width: 80px;
+                // background: red;
+                margin-top: 5px;
+                display: none;
+                flex-direction: column;
+                gap: 3px;
+
+                .filterItem {
+                    width: 100%;
+                    height: 35px;
+                    // background: white;
+                    // color: var(--main-color);
+                    text-align: center;
+                    border-bottom: 1px solid #ccc;
+                }
+            }
+        }
+    }
+
+    .allEpisodesContainer {
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+        // background: red;
+        display: flex;
+        // justify-content: center;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+
+    .episodeCard {
+        width: 400px;
+        height: auto;
+        .episodeArt {
+            width: 100%;
+            height: 300px;
+            background: url('../Assets/podcastArt.png');
+            background-position: top;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .episodeTitle {
+            color: var(--main-color);
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+        .episodeNumberandDateContainer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 15px;
+            color: #ccc;
+            margin: 10px 0px;
+        }
+
+        .hostGuest {
+            color: rgb(129, 129, 129);
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        .episodeNotes {
+            margin: 10px 0px;
+            font-size: 16px;
+        }
+
+        .episodeActions {
+            display: flex;
+            justify-content: space-between;
+            // margin-top: 10px;
+
+            .playButton {
+                color: var(--main-color);
+                cursor: pointer;
+            }
+
+            .viewepisode {
+                text-decoration: none;
+                color: var(--textColor);
+                font-size: 14px;
+            }
+        }
+    }
+}
